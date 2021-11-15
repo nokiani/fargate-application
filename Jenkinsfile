@@ -5,11 +5,11 @@ pipeline {
     
   stages {
         
-    stage('Git') {
-      steps {
-        git 'https://github.com/nokiani/fargate-application.git'
-      }
-    }
+//    stage('Git') {
+//      steps {
+//        git 'https://github.com/nokiani/fargate-application.git'
+//      }
+//    }
      
     stage('Build') {
       steps {
